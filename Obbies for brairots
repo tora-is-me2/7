@@ -24,14 +24,14 @@ local Footer = Instance.new("TextLabel")
 -- COORDENADAS EXATAS
 -- ==============================================
 local Options = {
-    ["upgrade speed"] = CFrame.new(-269,33,-440),
     ["secreto"] = CFrame.new(-291,252,1121),
+    ["upgrade speed"] = CFrame.new(-269,33,-440),
     ["sell brairots"] = CFrame.new(-193,33,-440),
     ["spaw"] = CFrame.new(-243,33,-416)
 }
 
 local CheckFrames = {Check1, Check2, Check3}
-local OptionNames = {"upgrade speed", "secreto", "sell brairots"}
+local OptionNames = {"secreto", "upgrade speed", "sell brairots"}
 local YPos = 42
 local menuAberto = true
 
@@ -117,7 +117,7 @@ SpawBtn.Size = UDim2.new(1, -15, 0, 38)
 SpawBtn.Position = UDim2.new(0, 8, 0, YPos + 6)
 SpawBtn.BackgroundColor3 = Color3.fromRGB(35, 35, 35) -- MAIS CLARO QUE O FUNDO
 SpawBtn.BorderSizePixel = 0
-SpawBtn.Text = "spaw"
+SpawBtn.Text = "Go to spaw"
 SpawBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpawBtn.TextScaled = true
 SpawBtn.Font = Enum.Font.GothamBold
